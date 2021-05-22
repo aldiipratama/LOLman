@@ -1,13 +1,3 @@
-const url_string = document.URL;
-const url = new URL(url_string);
-let sender;
-
-if (url.searchParams.get('by') != null) {
-  sender = url.searchParams.get('by');
-} else {
-  sender = "Cantik";
-}
-
 let footer = document.getElementById("credit");
 footer.href = "https://www.instagram.com/rinaldi_r7/";
 
@@ -74,7 +64,7 @@ const {
 												Swal.fire({
 													imageUrl: 'img/lofyu.gif',
 			  										imageHeight: 150,
-													title: 'lopyu ' + `${sender}`
+													title: 'lopyu Ganteng'
 												}).then(function() {
 													Swal.fire({
 														imageUrl: 'img/see.gif',
